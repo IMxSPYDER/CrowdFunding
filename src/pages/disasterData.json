@@ -2,7 +2,8 @@
     { "lat": 19.1332, "lon": 72.8728, "isDisaster": false },
     { "lat": 40.7128, "lon": -74.0060, "isDisaster": false },
     { "lat": 19.2062, "lon": 72.8745, "isDisaster": true },
-    { "lat": 19.21, "lon": 72.87, "isDisaster": true }
+    { "lat": 19.21, "lon": 72.87, "isDisaster": true },
+    { "lat": 19.2, "lon": 72.87, "isDisaster": true }
 
-  ]
-  
+
+]

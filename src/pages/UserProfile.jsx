@@ -138,7 +138,7 @@ const UserProfile = ({ userAddress }) => {
                 <Link to={`/campaign-details/${campaign.title}`} className="block mt-3 font-bold text-blue-400">
                   View Details →
                 </Link>
-                <div className="p-4 cursor-pointer bg-blue-400 font-bold text-center text-white" onClick={() => alert(`${campaign.amountCollected} Amount credited`)}>
+                <div className="p-4 cursor-pointer bg-blue-400 font-bold text-center text-white" onClick={() => alert(`${campaign.amountCollected} ETH Amount credited`)}>
                   Get Payment
                 </div>
               </div>

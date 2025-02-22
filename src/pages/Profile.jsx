@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import { DisplayCampaigns } from '../components';
 import { useStateContext } from '../context'
 import UserProfile from './UserProfile';
+import TransactionTable from './TransactionTable';
 
 const Profile = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -22,9 +23,12 @@ const Profile = () => {
   }, [address, contract]);
 
   return (
+    <>
     <UserProfile 
     userAddress ={address}
     />
+    <TransactionTable/>
+    </>
   )
 }
 

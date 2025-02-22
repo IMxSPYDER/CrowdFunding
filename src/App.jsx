@@ -6,7 +6,7 @@ import { CampaignDetails, CreateCampaign, Home, Profile } from './pages';
 import Google_login from './pages/Google_login';
 import DisasterCheckForm from './pages/DisasterCheckForm';
 import logo from './assets/logo11.jpg';
-
+import GoogleWallet from  './pages/GoogleWallet'
 const App = () => {
 
   const [showSplash, setShowSplash] = useState(true);
@@ -81,6 +81,7 @@ const App = () => {
       <div className="flex-1 max-sm:w-full max-w-[1280px] mx-auto sm:pr-5">
         <Navbar account={account} connectWallet={connectWallet}/>
         {/* <Google_login /> */}
+        <GoogleWallet/>
 
         <Routes>
           <Route path="/" element={<Home />} />
