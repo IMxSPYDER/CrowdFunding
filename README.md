@@ -88,3 +88,13 @@ function getCampaignsByOwner(address _owner) public view returns (Campaign[] mem
 - Charity Platforms & NGOs
 - Crypto Donors & Web3 Philanthropists
 - General Public Seeking Transparent Donations
+
+------
+
+![image](https://github.com/user-attachments/assets/29155a81-4a5c-49f2-a6a6-fc2f34c33721)
+![image](https://github.com/user-attachments/assets/d004b147-6fbe-47e5-8396-c2516bfc623d)
+![image](https://github.com/user-attachments/assets/01ba8d8b-a59e-498f-9723-98f9f1241298)
+![image](https://github.com/user-attachments/assets/84600c37-3dfd-4527-890f-0f8337cd1de1)
+![image](https://github.com/user-attachments/assets/c8b92bff-b7a5-41ae-9a41-99ee9725e699)
+
+
